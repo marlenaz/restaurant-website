@@ -1,0 +1,268 @@
+:root {
+    --light-brown: rgb(190, 128, 64);
+}
+
+body {
+    overflow: auto;
+    margin:0px;
+    padding: 0px;
+    --light-brown: rgb(190, 128, 64);
+}
+
+#header {
+    background-image: url('./images/rustic-vegan-756641.jpg');
+    background-color: pink;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    position: relative;
+}
+
+nav {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+nav div {
+    position:relative;
+    right:0;
+    bottom:0;
+    text-align:center;
+    /*transform:scale(1);*/
+}
+
+ul {
+    position:relative;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom: 10px;
+    padding-right: 10%;
+}
+
+li  {
+    text-transform:uppercase;
+    display:block;
+    font-family: sans-serif;
+    font-size: small;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    color:lightgray;
+    padding:15px 20px;
+    transition: all .4s;
+}
+
+li:hover {
+    color: rgb(190, 128, 64); /*light brown*/
+    border-bottom: solid 2px;
+}
+/*
+CENTER HEADER TEXT
+*/
+.title {
+    margin:auto;
+    text-align:center;
+    color: rgb(255,255,255); /*white*/
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+}
+
+.welcome {
+    font-family: 'Alex Brush', cursive;
+    color: rgb(190, 128, 64);
+    font-size: 80px;
+    line-height: 0.75;
+}
+
+.name {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+#asterisk {
+      color: rgb(190, 128, 64);
+      line-height:0.5;
+      font-size:30px;
+      justify-content:center;
+      vertical-align:middle;
+      margin-right:10px;
+      margin-left:10px;
+}
+
+.separator {
+    letter-spacing:-2px;
+}
+
+.subtext {
+    text-transform: uppercase;
+    margin-top:5px;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+/*CONTENT*/
+
+#subject {
+    color: black;
+    position: relative;
+    height: 560px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textcontent {
+    position:relative;
+    width: 650px;
+    margin: 100px 30px auto auto;
+    height: 80%;
+}
+
+.contenttitle {
+    margin-right: 100%;
+    text-align: center;
+    float: left;
+}
+
+.contenttitle #asterisk {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contenttitle .name {
+    font-size: 20px;
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.5;
+    min-width: 300px;
+}
+
+.fotocontent {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    position: relative;
+
+}
+
+.foto {
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+}
+
+/*
+FOOTER
+*/
+
+#footer {
+    background-image: url('./images/bottom.jpg');
+    background-size: cover;
+    position: relative;
+    height: 400px;
+
+}
+
+/* SUBJECT MENU */
+
+.foto-menu {
+    flex-flow: row wrap;
+    width: 600px;
+    height: 520px;
+    margin: 15px 25px;
+}
+
+.menu {
+    padding: 0px;
+    margin: 10px 10px 0px 0px;
+}
+
+.text-menu {
+    max-width: 50%;
+    margin-right: 15%;
+}
+
+a {
+    color: rgb(190, 128, 64); /*light brown*/
+    text-align: center;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+/*CONTACT*/
+
+.foto-contact {
+    margin: 20px 5px 0px 25px;
+    padding: 0px;
+    position: relative;
+    top: 50px;
+    height: 70%;
+}
+
+.foto-contact img {
+    padding: 20px;
+    border: 1px solid var(--light-brown);
+}
+
+p {
+    line-height: 0.4;
+    text-align: center;
+}
+
+.text-contact {
+    margin: 0px;
+    padding: 0px;
+    min-width: 300px;
+    height: 70%;
+}
+
+.contact-title {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.contact-title #asterisk {
+    margin-top: 20px;
+}
+
+.contact-title .name {
+    font-size: 20px;
+}
+
+#mail {
+    margin: 30px 0px;
+}
+
+#opening {
+    margin: 40px 0px 25px 0px;
+}
+
+#map {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    height: 70%;
+    position: relative;
+    top: 50px;
+}
+
+iframe {
+    margin-right: 25px;
+    padding: 20px;
+    border: 1px solid;
+    border-color: var(--light-brown);
+}
